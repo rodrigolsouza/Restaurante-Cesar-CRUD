@@ -1,0 +1,12 @@
+banco de dados mongoDB:
+login:teste_restaurante
+senha:admin
+mongodb+srv://teste_restaurante:<db_password>@clusterteste.vduediv.mongodb.net/?retryWrites=true&w=majority&appName=ClusterTeste
+
+endereço onde a API rest sobe
+http://127.0.0.1:8000
+
+ Backend como API (FastAPI + MongoDB + JSON) — responsável apenas por fornecer os dados e responder aos comandos (CRUD).
+
+ para rodar no terminal e subir a FastAPI
+ uvicorn main:app --reload

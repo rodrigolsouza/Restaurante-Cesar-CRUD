@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Cardápio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Gerenciamento de Cardápio do Restaurante</h1>
+
+    <section class="form-section">
+        <h2>Adicionar ou Editar Item</h2>
+        <form id="form-item">
+            <input type="hidden" id="id">
+            <input type="text" id="nome" placeholder="Nome do prato" required>
+            <input type="text" id="descricao" placeholder="Descrição" required>
+            <input type="text" id="ingredientes" placeholder="Ingredientes (separados por vírgula)" required>
+            <input type="number" id="preco" placeholder="Preço (ex: 25.90)" step="0.01" required>
+            <input type="text" id="categoria" placeholder="Categoria (entrada, prato principal, sobremesa, bebida)" required>
+            <input type="url" id="foto" placeholder="URL da foto do prato" required>
+            <button type="submit">Salvar</button>
+        </form>
+    </section>
+
+    <section class="filtros">
+    <h2>Filtrar Cardápio</h2>
+    <button onclick="carregarCardapio()">Listar Todos</button>
+
+    <select id="filtroCategoria">
+        <option value="">Selecione uma categoria</option>
+        <option value="entrada">Entrada</option>
+        <option value="prato principal">Prato Principal</option>
+        <option value="sobremesa">Sobremesa</option>
+        <option value="bebida">Bebida</option>
+    </select>
+
+    <button onclick="filtrarPorCategoria()">Filtrar</button>
+</section>
+
+
+    <h2>Cardápio</h2>
+    <div id="cardapio"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

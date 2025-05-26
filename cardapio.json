@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "nome": "Filé à Parmegiana (2 Pessoas)",
+        "descricao": "200g de filé à milanesa envoltos em molho caseiro de tomate fresco e gratinado com queijos muçarela e parmesão. Servido com espaguete no próprio molho ou com arroz branco e batatas fritas.",
+        "ingredientes": "Ovo, Glúten, Leite",
+        "preco": 69.9,
+        "categoria": "prato principal",
+        "foto": "https://braseirorestaurante.com.br/wp-content/uploads/2020/07/Braseiro-476-min-scaled.jpg"
+    }
+]
