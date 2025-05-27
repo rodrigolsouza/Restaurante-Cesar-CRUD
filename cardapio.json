@@ -7,5 +7,23 @@
         "preco": 69.9,
         "categoria": "prato principal",
         "foto": "https://braseirorestaurante.com.br/wp-content/uploads/2020/07/Braseiro-476-min-scaled.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Peixe Crocante (3 pessoas)",
+        "descricao": "Filé de peixe empanado ao coco levemente adocicado e farinha de pães frescos, crocante por fora e macio por dentro. Acompanha arroz de castanha e maionese de batata com picles de pepino.",
+        "ingredientes": "Ovo, Glúten, Peixe, Lactose, Leite, Castanhas.",
+        "preco": 89.9,
+        "categoria": "prato principal",
+        "foto": "https://www.cooky.com.br/wp-content/uploads/2021/09/peixe-empanado-crocante.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Carne de Sol do Maranhão (3 pessoas)",
+        "descricao": "450g de carne de sol de filé mignon. Acompanha baião de dois, farofa de ovos, banana à milanesa, cebola roxa refogada, purê de macaxeira gratinado com queijo coalho e vinagrete.",
+        "ingredientes": "Ovo, Glúten, Lactose, Leite.",
+        "preco": 89.9,
+        "categoria": "prato principal",
+        "foto": "https://media-cdn.tripadvisor.com/media/photo-s/0e/26/b9/07/carne-de-sol-do-maranhao.jpg"
     }
 ]
